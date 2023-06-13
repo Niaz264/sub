@@ -1,0 +1,15 @@
+# heroku.yml
+
+app: sabnzbd
+
+buildpacks:
+- heroku/php
+
+env:
+- APP_ENV=production
+- SABNZBD_USERNAME=your_username
+- SABNZBD_PASSWORD=your_password
+- SABNZBD_URL=http://sabnzbd.example.com
+
+heroku_buildpack: php
+heroku_stack: cedar-14
