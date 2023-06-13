@@ -1,5 +1,0 @@
-gunicorn==20.0.0
-appreciate
-pynzb
-requests
-
